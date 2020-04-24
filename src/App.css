@@ -1,0 +1,169 @@
+@media(min-width: 768px){
+    .navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    .home-container{
+    display:flex;
+    }
+
+    .home-brief-container{
+    display: flex;
+    justify-content: space-evenly
+}
+
+    .about-container{
+        display:flex;
+        justify-content: space-evenly
+    }
+
+    .register-container{
+        display: flex;
+    }
+
+    .login-container{
+        display: flex;
+    }
+
+    .footer-container{
+        display: flex;
+    }
+    /* for the map */
+    /* .container-10{ 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        position: absolute;
+        margin: 5px;
+    }  */
+
+
+}
+
+.navbar-container>div{
+    background-color: #DAF7A6;
+    margin: 5px;
+    padding: 5px;
+}
+
+.unordered-list{
+padding: 0px
+}
+
+.list-items{
+list-style: none;
+}
+
+.home{
+    flex:5;
+}
+
+.about{
+    flex:1;
+}
+
+.register{
+    flex:1;
+}
+
+.login{
+    flex:1; 
+}
+
+.home-container{
+    background:bisque;
+    padding: 5px;
+    margin: 0 5px 5px 5px;
+    border: 10px;
+    height: 575px;
+    
+}
+
+.home-brief-container>div{
+    background:honeydew;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    height: 425px;
+    flex: 1;
+}
+
+.about-container>div{
+    background:honeydew;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    height: 350px;
+    flex: 1;
+}
+
+.register-container{
+    background: gold;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    height: 460px;
+}
+
+.register-form{
+    width: 65%;
+}
+
+.login-container{
+    background: paleturquoise;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    border: 10px;
+    height: 520px;
+    flex:1;
+}
+.login-form{
+    width: 60%;
+}
+
+.footer-container{
+    background: chocolate;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    height: 190px;
+}
+
+
+/* .calendar{
+    background-color: greenyellow;
+    position: relative;
+    flex: 1 0 18%;
+    margin: 4px;
+    padding: 40px;
+    border: 10px;
+    display:block;
+} */
+
+/* .calendar:hover .content{
+    opacity: 1;
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: white;
+}
+.button{
+    margin-top: 60px;
+    margin-left: 80px;
+} */
+
+/* .title{
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 25px;
+}
+
+.greetings{
+    font-size: 10px;
+} */
